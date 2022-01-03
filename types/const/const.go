@@ -8,9 +8,9 @@ const (
 	e     = 2.718
 )
 const (
-	zero  = iota
-	_     // пустая переменная пропуск iota
-	three // = 3
+	zero  = iota // это такой автоинкремент для констант
+	_            // пустая переменная пропуск iota
+	three        // = 3
 )
 const (
 	_         = iota             // пропускаем первое значение
@@ -27,4 +27,5 @@ const (
 func main() {
 	var month int32 = 13
 	fmt.Println(month + year)
+	fmt.Println(zero, three)
 }
