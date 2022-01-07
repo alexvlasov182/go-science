@@ -32,7 +32,7 @@ func main() {
 	fmt.Println(copied, emptyBuf)
 
 	// правильно
-	newBuf = make([]int, len(buf), len(buf))
+	newBuf = make([]int, len(buf))
 	copy(newBuf, buf)
 	fmt.Println(newBuf)
 

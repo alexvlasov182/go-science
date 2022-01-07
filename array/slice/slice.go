@@ -13,7 +13,8 @@ func main() {
 	println(buf0, buf1, buf2, buf3, buf4, buf5)
 
 	// обращение к элементам
-	// someInt := buf2[1]
+	//someInt := buf2[1]
+	//fmt.Println(someInt)
 
 	// ошибка при выполнении
 	// panic: runtime error: index out of range
@@ -33,7 +34,7 @@ func main() {
 	fmt.Println(buf, otherBuf)
 
 	// просмотр информации о слайсе
-	var bufLen, bufCap int = len(buf), cap(buf)
-
+	var bufLen = len(buf)
+	var bufCap = cap(buf)
 	fmt.Println(bufLen, bufCap)
 }
