@@ -52,8 +52,8 @@ Loop:
 		println("switch in loop", key, val)
 		switch {
 		case key == "lastName":
-			break
-			println("dont pront this")
+			// break
+			// println("dont pront this")
 		case key == "firstName" && val == "Alex":
 			println("switch  - break loop here")
 			break Loop
