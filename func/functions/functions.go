@@ -52,7 +52,7 @@ func main() {
 	fmt.Println(singleIn(1))
 	fmt.Println(multIn(1, 2, 3))
 	fmt.Println(nameReturn())
-	fmt.Println(multipleReturn(1))
+	fmt.Println(multipleReturn(3))
 	fmt.Println(multipleNamedReturn(false))
 
 	nums := []int{1, 2, 3, 4}
