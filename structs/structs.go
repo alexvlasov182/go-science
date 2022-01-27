@@ -33,5 +33,7 @@ func main() {
 
 	fmt.Printf("%v#\n", acc)
 
+	fmt.Println(acc.Name)
 	fmt.Println(acc.Person.Name)
+	fmt.Println(acc.Person.Address)
 }
