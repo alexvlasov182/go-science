@@ -54,7 +54,7 @@ func main() {
 	acc.SetName("vlasov.alex")
 	acc.Person.SetName("Test")
 
-	// fmt.Printf("%#v \n", acc)
+	fmt.Printf("%#v \n", acc)
 	sl := MySlice([]int{1, 2})
 	sl.Add(5)
 	fmt.Println(sl.Count(), sl)
